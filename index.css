@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,500;0,600;0,700;0,800;0,900;1,600;1,800&family=Rum+Raisin&display=swap");
+
+body {
+  background-color: #dcdde1;
+
+  font-family: "Rum Raisin", sans-serif;
+  color: #1b1b1b;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card-wrapper {
+  width: 30%;
+  height: 550px;
+  margin: 70px auto 20px;
+  box-shadow: 2px 2px 15px #69696e, -2px -2px 15px #f9fbff;
+  text-align: center;
+  padding: 30px;
+  border-radius: 7px;
+}
+.card-wrapper .card-img-wrapper {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.card-img-wrapper img {
+  width: 150px;
+  height: 150px;
+}
+.card-wrapper .about-profile span {
+}
+.card-img-wrapper .about-profile {
+}
+.about-profile h1 {
+  font-family: "Albert Sans", sans-serif;
+  margin-top: 10px;
+  font-size: 1.8rem;
+}
+.about-profile span {
+  font-size: 1rem;
+  margin: 3px 0 0 0;
+  color: rgb(165, 99, 99);
+}
+.about-profile p {
+  text-align: justify;
+  font-size: small;
+  margin-top: 2px;
+  font-family: "Albert Sans", sans-serif;
+  padding: 10px;
+}
+button {
+  border: none;
+  margin-top: 35px;
+  background-color: #dcdde1;
+}
+button a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  outline: 3px solid #ffffff;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+button a:hover,
+button a:active {
+  border: none;
+  background-color: #ffffff;
+  outline: 2px solid black;
+  border-radius: 5px;
+}
